@@ -1,10 +1,10 @@
 """
-rock paper scisir game
+rock paper scissor game
 play 10 times and gives result with wins, draws and loses
 also it does not count wrong inputs
 """
 import random
-elements = ["rock", "paper", "scisir"]
+elements = ["rock", "paper", "scissor"]
 your_score = 0
 cpu_score = 0
 draw_g = 0
@@ -28,7 +28,7 @@ def cpu_choice():
 
 while total_games < game_limit:
     print("")
-    choice = input("choose r, p, s as rock, paper, scisir:").lower()
+    choice = input("choose r, p, s as rock, paper, scissor:").lower()
     cpu=ri()
 
     if choice == 'r':
